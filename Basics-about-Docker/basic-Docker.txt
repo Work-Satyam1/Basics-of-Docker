@@ -3,3 +3,5 @@
 
 🐳 Difference Between Docker Image & Container?
 👉 Docker Image is a read-only template, while a Docker Container is a running instance of that image.
+
+Virtualization is a technology that creates a virtual version of a physical resource like a server, operating system, storage, or network. It lets one physical machine run multiple separate virtual systems using software called a hypervisor.

@@ -1,0 +1,131 @@
+🐳 Basic Docker Commands (with Definition + Use Case)
+
+
+🔹 1. docker images
+✅ Definition:
+
+
+
+💼 Use Case:
+
+👉 Check if image exists before running container
+
+docker images
+🔹 2. docker ps
+✅ Definition:
+
+Shows all running containers
+
+💼 Use Case:
+
+👉 See which containers are currently active
+
+docker ps
+
+👉 To see all (including stopped):
+
+docker ps -a
+🔹 3. docker run
+✅ Definition:
+
+Creates and starts a container from an image
+
+💼 Use Case:
+
+👉 Run an app (like nginx, node app)
+
+docker run nginx
+
+👉 With port mapping:
+
+docker run -p 3000:3000 my-app
+🔹 4. docker build
+✅ Definition:
+
+Builds an image from a Dockerfile
+
+💼 Use Case:
+
+👉 Create your own app image
+
+docker build -t my-app .
+🔹 5. docker pull
+✅ Definition:
+
+Downloads an image from Docker Hub
+
+💼 Use Case:
+
+👉 Get ready-made images
+
+docker pull nginx
+🔹 6. docker stop
+✅ Definition:
+
+Stops a running container
+
+💼 Use Case:
+
+👉 Stop server/app running in container
+
+docker stop <container_id>
+🔹 7. docker start
+✅ Definition:
+
+Starts a stopped container
+
+💼 Use Case:
+
+👉 Restart previously stopped container
+
+docker start <container_id>
+🔹 8. docker rm
+✅ Definition:
+
+Removes (deletes) a container
+
+💼 Use Case:
+
+👉 Clean unused containers
+
+docker rm <container_id>
+🔹 9. docker rmi
+✅ Definition:
+
+Deletes an image
+
+💼 Use Case:
+
+👉 Free disk space
+
+docker rmi <image_name>
+🔹 10. docker exec
+✅ Definition:
+
+Runs command inside a running container
+
+💼 Use Case:
+
+👉 Access container terminal
+
+docker exec -it <container_id> bash
+🔹 11. docker logs
+✅ Definition:
+
+Shows logs of a container
+
+💼 Use Case:
+
+👉 Debug errors
+
+docker logs <container_id>
+🔹 12. docker run -d
+✅ Definition:
+
+Runs container in detached mode (background)
+
+💼 Use Case:
+
+👉 Run server without blocking terminal
+
+docker run -d nginx

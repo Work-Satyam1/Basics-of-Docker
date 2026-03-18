@@ -1,0 +1,5 @@
+🐳 What is Docker?
+👉 Docker is a containerization platform that packages applications and their dependencies so they can run consistently across different environments.
+
+🐳 Difference Between Docker Image & Container?
+👉 Docker Image is a read-only template, while a Docker Container is a running instance of that image.
